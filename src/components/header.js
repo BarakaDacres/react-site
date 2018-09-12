@@ -28,7 +28,7 @@ class Header extends React.Component {
 
   handlePurchase = (token) => {
     const amount = 5000
-    const description = "My awesome product"
+    const description = "Test Product"
 
     const bodyObject = {
       tokenId: token.id,
@@ -56,7 +56,7 @@ class Header extends React.Component {
             amount={ 5000 }
             image="https://cl.ly/0K2f1V3K3h0D/download/Logo.jpg"
             token={this.handlePurchase}
-            stripeKey={'pk_test_4VuxMZhOiYXJlElaTf3qjAXh'}
+            stripeKey={'pk_test_FFASzxS4A6Nz9d62PExDiQCI'}
             >
             <button>Buy</button>
           </StripeCheckout>
