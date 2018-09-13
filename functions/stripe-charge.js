@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_edDGZ00pWYrsdwMDSQ6TeIRd')
+const stripe = require('stripe')('sk_live_CWFeSUhvSoJpoyLM12C91QGM')
 
 exports.handler = async function(event) {
     const {
